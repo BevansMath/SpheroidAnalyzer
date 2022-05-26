@@ -1,8 +1,8 @@
 # SpheroidAnalyzer
-MATLAB script that cleans and pre-processes .tif images of spheroids, then measure the diameter of the image and any cell migration in pixels.
+MATLAB script that cleans and pre-processes .tif images of spheroids, then measures spheroid diameter and any cell migration in pixels.
 
 # Motivation
-I built this as part of an ongoing research project for a client who was in need for an easy and accurate method to measure multiple images of cell migration from the spheroid, as well as the diameter of migration from end to end. 
+I built this as part of a client's ongoing research project. The goal was to create a fast and accurate method to measure multiple images of cell migration from the spheroid, as well as the diameter of migration from end to end. 
 
 # Goal
 The goal of SpheroidAnalyzer is to take the raw images from an image directory and run each image folder through the cleansing and processing stages in a sequential fashion. In that processing stage, a few things will happen:
